@@ -1,6 +1,6 @@
 ## Short comments on what the .R script does.
 <br />
-This script uses the data from here http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones. 
+This script uses the data from here http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones in the following way. 
 <br />
 
 1) Reads data sets from 'train' and 'test' folders using the 'read.csv'. Filters out only the mean and standard deviation of the measurements.<br />
