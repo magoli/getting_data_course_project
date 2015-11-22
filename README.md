@@ -1,4 +1,7 @@
 ## Short comments on what the .R script does.
+<br />
+This script uses the data from here http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones. 
+<br />
 
 1) Reads data sets from 'train' and 'test' folders using the 'read.csv'. Filters out only the mean and standard deviation of the measurements.<br />
 2) Combines data sets 'X_train', 'y_train' and 'subject_train' with the respective data sets from the 'test' folder using the 'rbind' command, getting the three data bases (x, y, subject) as a result.<br />
